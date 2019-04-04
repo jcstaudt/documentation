@@ -1,10 +1,13 @@
-site_name: Olimex Ltd
-site_author: "Olimex team"
+site_name: OLIMEX Ltd
+site_author: "OLIMEX team"
 site_favicon: favicon.ico
 
 pages:
 - Home: 'index.md'
 - Products:
+    - OLinuXino:
+        - A20-OLinuXino:
+            - 'Overview': 'products/A20-OLinuXino/Overview.md'
     - TERES-I:
         - 'Overview': 'products/TERES-I/Overview.md'
         - Hardware:
