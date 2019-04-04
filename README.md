@@ -38,4 +38,4 @@ You will be able to edit existing files and observe the results in real time.
 The default URL is `127.0.0.1:8000`.
 To change this, try something like:
 
-`mkdocs serve --dev-addr=0.0.0.0:80  # Run on port 80, on the local network.`
+`$ mkdocs serve --dev-addr=0.0.0.0:80  # Run on port 80, on the local network.`
