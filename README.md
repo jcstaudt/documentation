@@ -23,13 +23,12 @@ From the parent folder of the repo, run:
 
 `$ mkdocs build`
 
-This generates a `mkdocs.yml` configuration file and creates the mkdocs site in the `site/` folder.
+This creates the mkdocs site in the `site/` folder.
+After changing text in an existing file, you may wish to build a clean instance using:
+
+`$ mkdocs build --clean`
 
 ## Testing documentation layout
 
 To preview locally, start the server with `$ mkdocs serve`.
 You will be able to edit existing files and observe the results in real time.
-
-After changing text in an existing file, you may wish to build a clean instance using:
-
-`$ mkdocs build --clean`
