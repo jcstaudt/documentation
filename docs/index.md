@@ -1,3 +1,5 @@
+# Welcome to OLIMEX
+
 [![](images/logo-olimex.png)](http://www.olimex.com)
 
 Olimex Ltd is a leading provider for development tools and programmers for the embedded computing market.
@@ -27,6 +29,10 @@ The company's 5,000 sq.m. production buildings are situated on our 10,000 sq.m. 
 ## Supported products
 
 - [TERES-I DIY laptop](products/TERES-I/Overview.md): Do-It-Yourself Free Open Source Hardware and Software laptop
+- **[OLinuXino](products/OLinuXino/Overview.md)**
+    - [A20-OLinuXino-LIME2](products/OLinuXino/A20-OLinuXino-LIME2/Overview.md): Updated version of A20-OLinuXino-LIME with 2x the RAM and Gigabit Ethernet
+
+...and [many more](https://olimex.com)!
 
 ## Contact
 
