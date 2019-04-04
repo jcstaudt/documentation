@@ -1,6 +1,4 @@
-# Welcome to OLIMEX
-
-[![](images/logo-olimex.png)](http://www.olimex.com)
+# Welcome to [![](images/logo-olimex.png)](http://www.olimex.com)
 
 Olimex Ltd is a leading provider for development tools and programmers for the embedded computing market.
 We have 28 years experience in designing, prototyping and manufacturing printed circuit boards, sub-assemblies, and complete electronic products.
