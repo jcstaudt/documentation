@@ -1,0 +1,4 @@
+- GPIO pinout [[PDF](A20_LIME2_GPIOs.pdf)] [[ODS](A20_LIME2_GPIOs.ods)]
+- [Schematics and hardware source file](https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2)
+- [Eagle shield template](https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2/A20-OLinuXino-Lime2_Rev-AA_SHIELD_TEMPLATE%20EAGLE)
+- [KiCad shield template](https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2/A20_OLinuXino_Lime2_Rev-AA_SHIELD_TEMPLATE%20KiCAD)

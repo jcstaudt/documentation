@@ -6,8 +6,12 @@ pages:
 - Home: 'index.md'
 - Products:
     - OLinuXino:
+        - 'Welcome to OLinuXino': 'products/OLinuXino/Overview.md'
         - A20-OLinuXino:
-            - 'Overview': 'products/A20-OLinuXino/Overview.md'
+            - 'Overview': 'products/OLinuXino/A20-OLinuXino-LIME2/Overview.md'
+            - Hardware:
+                - 'Technical': 'products/OLinuXino/A20-OLinuXino-LIME2/hardware/Technical.md'
+            - 'FAQ': 'products/OLinuXino/A20-OLinuXino-LIME2/FAQ.md'
     - TERES-I:
         - 'Overview': 'products/TERES-I/Overview.md'
         - Hardware:
