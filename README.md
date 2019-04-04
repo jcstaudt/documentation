@@ -1,6 +1,7 @@
 # Olimex documentation
 
 **Build Version**: `mkdocs, version 0.15.3`
+
 **Known bugs**: hidden pages (i.e. pages not included in nav/pages within mkdocs.yml) are not rendered, breaking hyperlinks
 
 ## Overview
