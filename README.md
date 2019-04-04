@@ -1,9 +1,13 @@
 # Olimex documentation
 
+**Build Version**: `mkdocs, version 0.15.3`
+**Known bugs**: hidden pages (i.e. pages not included in nav/pages within mkdocs.yml) are not rendered, breaking hyperlinks
+
 ## Overview
 
 Documentation is written in markdown and stored in the `docs/` subfolder.
-Images should be placed in `docs/images`.
+Product-specific documentation should be placed in `docs/products` with associated images in `docs/products/<hardware|software>/images`.
+Common images should reside in `docs/images`.
 
 Official output is https://docs.olimex.com.
 

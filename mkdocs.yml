@@ -1,2 +1,20 @@
 site_name: Olimex Ltd
 site_author: "Olimex team"
+site_favicon: favicon.ico
+
+pages:
+- Home: 'index.md'
+- Products:
+    - TERES-I:
+        - 'Overview': 'products/TERES-I/Overview.md'
+        - Hardware:
+            - 'Assembly': 'products/TERES-I/hardware/Assembly.md'
+            - 'Package Contents': 'products/TERES-I/hardware/Package-Contents.md'
+        - Software:
+            - 'Installing an OS': 'products/TERES-I/software/Install.md'
+            - 'Updating an OS': 'products/TERES-I/software/Update.md'
+        - 'FAQ': 'products/TERES-I/faq/FAQ.md'
+- Resources:
+    - 'Community': 'resources/Community.md'
+    - 'Evaluation Board Notice': 'resources/Evaluation-Board-Notice.md'
+    - 'Glossary': 'resources/Glossary.md'

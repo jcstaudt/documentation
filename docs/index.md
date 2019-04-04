@@ -1,4 +1,4 @@
-[![](https://www.olimex.com/_layout/images/logo.png)](http://www.olimex.com)
+[![](images/logo-olimex.png)](http://www.olimex.com)
 
 Olimex Ltd is a leading provider for development tools and programmers for the embedded computing market.
 We have 28 years experience in designing, prototyping and manufacturing printed circuit boards, sub-assemblies, and complete electronic products.
@@ -22,7 +22,11 @@ Olimex is recognized as an approved Third Party Hardware Developer by
 and we have over 30,000 active customer accounts who regularly use our services for electronic boards development and prototyping.
 Our design capabilities are backed by our own PCB prototype production and assembly facility, so all designs made by us are created with Design-For-Manufacturing in mind, guaranteeing that they are optimized for reliability and provide cost-effective solutions for our customers.
 
-The company’s 5,000 sq.m. production buildings are situated on our 10,000 sq.m. property.
+The company's 5,000 sq.m. production buildings are situated on our 10,000 sq.m. property.
+
+## Supported products
+
+- [TERES-I DIY laptop](products/TERES-I/Overview.md): Do-It-Yourself Free Open Source Hardware and Software laptop
 
 ## Contact
 
