@@ -7,7 +7,7 @@ pages:
 - Products:
     - OLinuXino:
         - 'Welcome to OLinuXino': 'products/OLinuXino/Overview.md'
-        - A20-OLinuXino:
+        - A20-OLinuXino-LIME2:
             - 'Overview': 'products/OLinuXino/A20-OLinuXino-LIME2/Overview.md'
             - Hardware:
                 - 'Technical': 'products/OLinuXino/A20-OLinuXino-LIME2/hardware/Technical.md'
