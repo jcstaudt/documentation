@@ -1,12 +1,12 @@
 
 
-site_name: Armbian Documentation
+site_name: Olimex Documentation
 
-repo_url: https://github.com/armbian/documentation
+repo_url: https://github.com/OLIMEX/documentation
 repo_name: Github
 
-site_author: "Armbian team"
-google_analytics: ['UA-284946-9', 'docs.armbian.com']
+site_author: "Olimex team"
+google_analytics: ['UA-284946-9', 'docs.olimex.com']
 
 theme: readthedocs
 theme_dir: readthedocs_custom
@@ -28,7 +28,7 @@ pages:
         - 'Troubleshooting' : 'User-Guide_Basic-Troubleshooting.md'
         - 'Advanced Features' : 'User-Guide_Advanced-Features.md'
         - 'Fine Tuning' : 'User-Guide_Fine-Tuning.md'
-        - 'Armbian config' : 'User-Guide_Armbian-Config.md'
+        - 'Olimex config' : 'User-Guide_Olimex-Config.md'
         - 'Allwinner DT overlays' : 'User-Guide_Allwinner_overlays.md'
         - 'Migration from Bananian' : 'User-Guide_Migration_from_Bananian.md'
 
@@ -41,7 +41,7 @@ pages:
         - 'Marvell Armada' : 'Hardware_Marvell.md'
 
   - 'Developer Guide' :
-        - 'Building Armbian' : 'Developer-Guide_Build-Preparation.md'
+        - 'Building Olimex' : 'Developer-Guide_Build-Preparation.md'
         - 'Building with Vagrant' : 'Developer-Guide_Using-Vagrant.md'
         - 'Building with Docker': 'Developer-Guide_Building-with-Docker.md'
         - 'Build Options' : 'Developer-Guide_Build-Options.md'

@@ -1,17 +1,17 @@
-# Armbian Documentation #
+# Olimex Documentation #
 
 ## Overview ##
 
 Documentation is written in markdown and stored in the `docs/` subfolder.  Images go in `docs/images`
 
-This repo is meant for storing and quick glances.  Official output is [http://docs.armbian.com](http://docs.armbian.com).
+This repo is meant for storing and quick glances.  Official output is [http://docs.olimex.com](http://docs.olimex.com).
 
-Armbian Documentation is available in the following formats:
+Olimex Documentation is available in the following formats:
 
-* mkdocs site [http://docs.armbian.com](http://docs.armbian.com).
+* mkdocs site [http://docs.olimex.com](http://docs.olimex.com).
 * PDF user guides \(in progress\)
 
-Armbian Documentation relies on a file naming convention:
+Olimex Documentation relies on a file naming convention:
 
 `Parent-Topic-Name_Child-Topic-Name.md`
 
@@ -48,24 +48,24 @@ Install these on the development host using:
 
 ## Tools ##
 
-### mkArmbianDocs.py ###
+### mkOlimexDocs.py ###
 generates mkdocs.yml file based on contents of `docs/`
 
 * command-line options for input and output directories
 * requires the python-jinja2 module which may not be installed by default
 * not needed unless making changes to the structure of the documentation
-* see `mkArmbianDocs.py -h` for help
+* see `mkOlimexDocs.py -h` for help
 
 ### missing tools ###
 The following capabilities are not yet available.
 
 * html2doc output to PDF user manual
-* automated mkdocs deployment to [http://docs.armbian.com](http://docs.armbian.com)
+* automated mkdocs deployment to [http://docs.olimex.com](http://docs.olimex.com)
 
 ## generating ##
 From the parent folder of the repo, run:
 
-`tools/mkArmbianDocs.py && mkdocs build`
+`tools/mkOlimexDocs.py && mkdocs build`
 
 This will generate the mkdocs.yml configuration file and then generate the mkdocs site to the `site/` folder.
 
@@ -76,16 +76,16 @@ After changing text in an existing file, use this command to rebuild and view th
 
 `mkdocs build --clean && mkdocs serve`
 
-After adding a new file, either hand-edit `mkdocs.yml`, or rerun `tools/mkArmbianDocs.py`.
+After adding a new file, either hand-edit `mkdocs.yml`, or rerun `tools/mkOlimexDocs.py`.
 
 ## Quick Start ##
 
 ```
 pip install mkdocs
-git clone https://github.com/armbian/documentation
+git clone https://github.com/OLIMEX/documentation
 #vim docs/[Parent Topic Example]-child-topic-example.md
 #generate config, build, launch local preview server
-tools/mkArmbianDocs.py && mkdocs build --clean && mkdocs serve
+tools/mkOlimexDocs.py && mkdocs build --clean && mkdocs serve
 git add docs/*.md
 git commit -m "added new howto on exampling"
 git push
